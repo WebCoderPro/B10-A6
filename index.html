@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind & Daisyui -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- Google font lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Google font inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="">
+        <nav class="">
+            <div class="navbar bg-base-100 justify-between w-11/12 mx-auto b">
+                <div class="">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li>
+                                <a>Shop</a>
+                                <ul class="p-2">
+                                    <li><a>Cat</a></li>
+                                    <li><a>Dog </a></li>
+                                </ul>
+                            </li>
+                            <li><a>Contract</a></li>
+                        </ul>
+                    </div>
+                    <img src="./assets/logo.webp" alt="">
+                    <a class="btn btn-ghost text-xl font-Lato font-bold text-[32px]">Peddy</a>
+                </div>
+                <div class=" hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li>
+                            <a>Shop</a>
+                        </li>
+                        <li><a>Contract</a></li>
+                    </ul>
+                </div>
+                <div class="  rounded-full w-[36px] h-[36px] px-[8px] py-[4px]">
+                    <img src="./assets/Frame.svg" alt="">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Your Path section start -->
+        <section class=" md:[768px] lg:w-11/12 mx-auto mt-[60px]">
+            <div class=" md:[650px] lg:w-[750px] mx-auto">
+                <p class="font-Lato text-gray-500 text-center text-base md:text-sm lg:text-lg font-semibold">Bringing
+                    Families
+                    Together ❤️‍🔥
+                </p>
+                <h1 class="font-lato text-gray-950 text-center text-3xl md:text-5xl lg:text-6xl mt-6 font-bold">Your
+                    Path to
+                    Adoption Starts
+                    Here</h1>
+            </div>
+            <div class=" md:w-[680px] lg:w-[750px]  mx-auto mt-3">
+                <p class="font-lato lg:text-base font-normal leading-6 text-center">It is a long established fact that a
+                    reader will be distracted by the readable content of a page when looking at its layout. The point of
+                    using Lorem Ipsum is that it has a.</p>
+            </div>
+            <div class="mt-8 md:w-[120px] lg:w-[160px] mx-auto flex justify-center">
+                <button
+                    class="btn btn-active btn-accent bg-teal-600 md:w-[120px] lg:w-[160px] lg:text-base font-lato font-semibold">View
+                    More</button>
+            </div>
+        </section>
+        <!-- Your Path section end -->
+
+        <!-- Dog & Cat section start -->
+        <section class="md:w-[768px] lg:w-11/12 mx-auto mt-12 ">
+            <div class=" md:w-[768px] lg:w-[803px] lg:h-[450px] mx-auto ">
+                <img src="./assets/pet.webp" alt="">
+            </div>
+        </section>
+        <!-- Dog & Cat section end-->
+
+        <!-- Adopt section start -->
+        <section class=" md:w-[768px] lg:w-11/12 mx-auto mt-[100px]">
+            <div class=" md:[768px] lg:w-[750px] mx-auto">
+                <h2 class="text-center font-lato text-[25px] md:text-[30px] lg:text-[40px] font-black leading-normal">
+                    Adopt Your
+                    Best Friend</h2>
+                <p class="font-lato lg:text-base font-normal leading-6 text-center mt-4">It is a long established fact
+                    that
+                    a
+                    reader will be distracted by the readable content of a page when looking at its layout. The point of
+                    using Lorem Ipsum is that it has a.</p>
+            </div>
+        </section>
+        <!-- Adopt section end -->
+
+
+        <!-- Adopt pet javascript start -->
+        <section id="pet-button"
+            class=" md:w-[768px] lg:w-11/12 mx-auto mt-12 mb-[32px]  md:grid md:grid-cols-3 md:gap-3 lg:flex lg:justify-evenly">
+        </section>
+        <!-- Adopt pet javascript end -->
+
+
+
+
+        <!-- Big deal & Sort by start -->
+        <section class="md:w-[768px] lg:w-11/12 mx-auto">
+            <div
+                class="lg:flex items-center justify-between md:w-[768px] lg:w-[1040px] mx-auto ">
+                <p
+                    class="font-lato text-black text-[20px] md:text-[17px] lg:text-[19px] font-bold  px-[150px] lg:px-0">
+                    Best deal for
+                    you</p>
+                <button
+                    class="btn w-[310px] lg:w-[150px] h-[40px] bg-teal-600 text-white font-lato text-[16px] font-bold ml-[90px]">Sort
+                    by
+                    price</button>
+            </div>
+        </section>
+        <!-- Big deal & Sort by end -->
+
+
+        <!-- Loading search start -->
+        <span id="loading" class="loading loading-bars loading-lg none hidden flex justify-center mx-auto mt-28"></span>
+        <!-- Loading search end -->
+
+        <!-- All pets start -->
+        <section class="w-11/12 mx-auto pt-6 flex gap-x-4">
+            <div id="allPets"
+                class="w-[900px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border-[1px] border-solid border-gray-400 gap-y-4 py-4 rounded-xl ">
+            </div>
+
+            <div id="like-add-pet"
+                class="w-[275px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border-[1px] border-solid border-gray-400 gap-y-4 py-4 rounded-xl">
+            </div>
+        </section>
+        <!-- All pets end-->
+
+        <!-- Modal start -->
+        <div id="modal-container" class=" w-11/12 mx-auto ">
+
+        </div>
+        <!-- Modal end -->
+
+    </main>
+    <!-- Footer section start -->
+    <footer class=" md:grid md:grid-cols-2 lg:flex lg:justify-between items-center bg-black text-neutral-content p-10 mt-8">
+        <div>
+            <div class="flex gap-4 items-center">
+                <img class="w-7 h-6" src="./assets/logo.webp" alt="">
+                <h3 class="text-3xl font-black font-lato text-white">Peddy</h3>
+            </div>
+            <div class=" mb-4 lg:mt-6">
+                <p>Location: av. Washington 165, NY CA 54003 <br>
+                    Phone: +31 85 964 47 25 <br>
+                    Email: info@yourdomain.com <br>
+                    Openings hours: 9.00 AM - 5.00 PM</p>
+            </div>
+            <div class="flex gap-4 mb-7 lg:mt-6">
+                <img class="w-8 h-8" src="./assets/Group 2.svg" alt="">
+                <img class="w-8 h-8" src="./assets/x-2 1.svg" alt="">
+                <img class="w-8 h-8" src="./assets/Group 6.svg" alt="">
+                <img class="w-8 h-8" src="./assets/instagram-2016-5 1.svg" alt="">
+            </div>
+        </div>
+        <div>
+            <div>
+                <h6 class=" font-Inter text-white font-semibold text-lg">Useful Links</h6>
+            </div>
+            <div class=" mb-5 lg:mt-7">
+                <p>
+                    Home <br>
+                    About Us <br>
+                    Animals <br>
+                    Foundation <br>
+                    Contact <br>
+                </p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h6 class="font-Inter text-white font-semibold text-lg">Drop a Message</h6>
+            </div>
+            <div class="mt-8">
+                <input type="text" placeholder="Enter your email" class="input w-full max-w-xs bg-slate-700" />
+            </div>
+            <div class="mt-4">
+                <button class="btn btn-active btn-accent w-[230px] text-white font-Lato text-lg font-semibold">Subscribe</button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer section end -->
+    <script src="./js/pet.js"></script>
+</body>
+
+</html>
